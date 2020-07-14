@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyTextView">
+        <attr name="testColor" format="color"></attr>
+    </declare-styleable>
+    <attr name="StyleInTheme" format="reference"/>
+</resources>

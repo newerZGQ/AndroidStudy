@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Main5Activity">
+
+    <study.zgq.com.androidstudy.view.MyFrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <study.zgq.com.androidstudy.view.MyView
+            android:id="@+id/v1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/cardview_dark_background" />
+
+
+        <study.zgq.com.androidstudy.view.MyView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:background="@color/colorAccent" />
+    </study.zgq.com.androidstudy.view.MyFrameLayout>
+    <!--    <study.zgq.com.androidstudy.view.MyFrameLayout-->
+    <!--        android:id="@+id/testGroup"-->
+    <!--        android:background="@color/colorPrimaryDark"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="500dp">-->
+
+    <!--        <study.zgq.com.androidstudy.view.MyButton-->
+    <!--            android:text="6666666666"-->
+    <!--            android:id="@+id/testBtn"-->
+    <!--            android:layout_marginLeft="200dp"-->
+    <!--            app:layout_ttcolor="#ffffff"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content" />-->
+    <!--        <study.zgq.com.androidstudy.view.MyTextView-->
+    <!--            android:id="@+id/tv"-->
+    <!--            android:text="yuyuu"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="100dp">-->
+
+    <!--        </study.zgq.com.androidstudy.view.MyTextView>-->
+
+
+    <!--        <study.zgq.com.androidstudy.view.MyTextView-->
+    <!--            android:id="@+id/tv1"-->
+    <!--            android:text="ttttttt"-->
+    <!--            android:layout_marginLeft="200dp"-->
+
+    <!--            android:layout_marginTop="150dp"-->
+    <!--            app:testColor="@color/cardview_light_background"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="100dp">-->
+
+    <!--        </study.zgq.com.androidstudy.view.MyTextView>-->
+    <!--        <study.zgq.com.androidstudy.view.MyView-->
+    <!--            android:layout_marginTop="150dp"-->
+    <!--            android:layout_marginLeft="150dp"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="100dp" />-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/image"-->
+    <!--            android:layout_marginTop="250dp"-->
+    <!--            android:layout_marginLeft="50dp"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:scaleType="center"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="100dp">-->
+
+    <!--        </ImageView>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/image1"-->
+    <!--            android:layout_marginTop="250dp"-->
+    <!--            android:layout_marginLeft="200dp"-->
+    <!--            android:background="@color/cardview_dark_background"-->
+    <!--            android:scaleType="center"-->
+    <!--            android:layout_width="100dp"-->
+    <!--            android:layout_height="100dp">-->
+
+    <!--        </ImageView>-->
+    <!--        <study.zgq.com.androidstudy.view.MyButton-->
+    <!--            android:text="66666"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="999"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="333"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="666"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="111"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="888"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="666"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="66666"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="99gtgtgtgt9"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="333"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="666"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="111"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--<study.zgq.com.androidstudy.view.MyButton-->
+    <!--android:text="888"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--    </study.zgq.com.androidstudy.view.MyFrameLayout>-->
+
+</android.support.constraint.ConstraintLayout>
